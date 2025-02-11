@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html {
+        height:100vh;
+        background:
+          radial-gradient(ellipse at top     left, rgb(236, 249, 87)  15% , transparent 60%), 
+          radial-gradient(ellipse at bottom  left, rgb(247, 69, 204)  15% , transparent 60%),
+          radial-gradient(ellipse at top    right, rgb(121, 238, 196) 15% , transparent 60%),
+          radial-gradient(ellipse at bottom right, rgb(81, 82, 213)   15% , transparent 60%);
+      }
+      canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);  
+      }
+    </style>
+    <title>Flappy</title>
+  </head>
+  <script type="module">
+    import init from '/flappy.js'
+    init()
+  </script>
+</html>

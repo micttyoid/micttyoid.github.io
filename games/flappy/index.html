@@ -2,6 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
       html {
         height:100vh;
         background:
@@ -15,10 +16,35 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);  
+        outline: 2px solid white;
+        border-radius: 3px;        
+      }
+      canvas:focus {
+        outline: 2px solid #AAFF00;
+        border-radius: 3px;
+      }
+      .meta {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        font-family: "Roboto Mono", serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+        font-size: 0.85rem;
+        letter-spacing: -0.045rem;
+
+        opacity: 0.2;
       }
     </style>
     <title>Flappy</title>
-  </head>
+  </head> 
+  <body>
+    <article class="meta">
+      <div>date-of-build: 02/11/2025</div>
+    </article>
+  </body>
   <script type="module">
     import init from '/games/flappy/flappy.js'
     init()

@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+Disallow: /.gitattributes$
+Disallow: /.gitignore$
+
+Disallow: /*.gz$
+Disallow: /*.rar$
+Disallow: /*.tar$
+Disallow: /*.zip$
+
+Disallow: /*.otf$
+Disallow: /*.ttf$
+Disallow: /*.woff$
+Disallow: /*.woff2$
+
+Disallow: /*.mp3$
+Disallow: /*.ogg$
+
+# Wasm-related
+Disallow: */_compressed_*/
+Disallow: /*.wasm$
+Disallow: /*.Wasm$
+
+# General Binaries
+Disallow: /*.clr$
+Disallow: /*.exe$
+Disallow: /*.pdb$
+
+
+Sitemap: https://recruiter-magnet.lukeyoo.fyi/sitemap.xml

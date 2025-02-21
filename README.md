@@ -2,9 +2,10 @@
 
 This represents the cname alias for [Recruiter Magnet](https://recruiter-magnet.lukeyoo.fyi).
 
-## Current entry
+## Current entries
 
-[Games](https://recruiter-magnet.lukeyoo.fyi/games)
+- [Games](https://recruiter-magnet.lukeyoo.fyi/games)
+- [Mockups](https://recruiter-magnet.lukeyoo.fyi/mockups)
 
 ## Others
 

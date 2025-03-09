@@ -19,13 +19,13 @@ This represents the cname alias for [Recruiter Magnet](https://recruiter-magnet.
 
 ## Others
 
-Personal
-
 - mail: [w.lukeyoo@gmail.com](mailto:w.lukeyoo@gmail.com)
 - GitHub: [https://github.com/micttyoid](https://github.com/micttyoid)
 - GitHub(2nd): [https://github.com/micttyl](https://github.com/micttyl)
 - GitLab: [https://gitlab.com/micttyoid](https://gitlab.com/micttyoid)
 - Bitbucket: [https://bitbucket.org/mictty](https://bitbucket.org/mictty)
+- Codeberg: [https://codeberg.org/mictty](https://codeberg.org/mictty)
+- Gitea: [https://gitea.com/mictty](https://gitea.com/mictty)
 
 Documentations
 

@@ -13,6 +13,7 @@ Personal
 
 - mail: [w.lukeyoo@gmail.com](mailto:w.lukeyoo@gmail.com)
 - GitHub: [https://github.com/micttyoid](https://github.com/micttyoid)
+- GitHub(2nd): [https://github.com/micttyl](https://github.com/micttyl)
 - GitLab: [https://gitlab.com/micttyoid](https://gitlab.com/micttyoid)
 - Bitbucket: [https://bitbucket.org/mictty](https://bitbucket.org/mictty)
 

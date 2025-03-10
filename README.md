@@ -12,12 +12,20 @@
 
 This represents the cname alias for [Recruiter Magnet](https://recruiter-magnet.lukeyoo.fyi).
 
+## Content
+
+1. Presentational material
+2. Static material
+3. Non-technical material
+
 ## Current entries
 
 - [Games](https://recruiter-magnet.lukeyoo.fyi/games)
 - [Mockups](https://recruiter-magnet.lukeyoo.fyi/mockups)
 
 ## Others
+
+Contact & Other platforms
 
 - mail: [w.lukeyoo@gmail.com](mailto:w.lukeyoo@gmail.com)
 - GitHub: [https://github.com/micttyoid](https://github.com/micttyoid)
@@ -30,3 +38,4 @@ This represents the cname alias for [Recruiter Magnet](https://recruiter-magnet.
 Documentations
 
 - [_LaTeX_](static/docs/clsguide_2024.pdf)
+- [_PlantUML_](static/docs/plantuml_2025.pdf)

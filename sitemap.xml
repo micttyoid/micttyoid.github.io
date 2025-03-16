@@ -28,7 +28,7 @@
    <url>
       <loc>http://recruiter-magnet.lukeyoo.fyi/mockups/boldwingery/</loc>
       <lastmod>2025-03-15</lastmod>
-   </url>   
+   </url>
    <url>
       <loc>http://recruiter-magnet.lukeyoo.fyi/static/</loc>
       <lastmod>2025-03-10</lastmod>
@@ -36,5 +36,17 @@
    <url>
       <loc>http://recruiter-magnet.lukeyoo.fyi/static/docs</loc>
       <lastmod>2025-03-10</lastmod>
+   </url>
+   <url>
+      <loc>http://recruiter-magnet.lukeyoo.fyi/static/imgs</loc>
+      <lastmod>2025-03-16</lastmod>
+   </url>
+   <url>
+      <loc>http://recruiter-magnet.lukeyoo.fyi/static/imgs/profile-bnw</loc>
+      <lastmod>2025-03-16</lastmod>
+   </url>
+   <url>
+      <loc>http://recruiter-magnet.lukeyoo.fyi/static/imgs/profile-bnw/orig</loc>
+      <lastmod>2025-03-16</lastmod>
    </url>   
 </urlset>

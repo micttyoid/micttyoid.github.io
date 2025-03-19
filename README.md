@@ -37,5 +37,7 @@ Contact & Other platforms
 
 Documentations
 
-- [_LaTeX_](static/docs/clsguide_2024.pdf)
-- [_PlantUML_](static/docs/plantuml_2025.pdf)
+- [_LaTeX_](https://recruiter-magnet.lukeyoo.fyi/static/docs/clsguide_2024.pdf)
+- [_PlantUML_](https://recruiter-magnet.lukeyoo.fyi/static/docs/plantuml_2025.pdf)
+- [_glTF_ Specification](https://recruiter-magnet.lukeyoo.fyi/static/docs/gltf-2.0.pdf)
+- [_glTF_ Reference](https://recruiter-magnet.lukeyoo.fyi/static/docs/gltf-reference.pdf)

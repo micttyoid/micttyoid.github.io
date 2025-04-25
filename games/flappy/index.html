@@ -1,85 +1,54 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+      html {
+        height:100vh;
+        background:
+          radial-gradient(ellipse at top     left, rgb(236, 249, 87)  15% , transparent 60%),
+          radial-gradient(ellipse at bottom  left, rgb(247, 69, 204)  15% , transparent 60%),
+          radial-gradient(ellipse at top    right, rgb(121, 238, 196) 15% , transparent 60%),
+          radial-gradient(ellipse at bottom right, rgb(81, 82, 213)   15% , transparent 60%);
+      }
+      canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        outline: 2px solid white;
+        border-radius: 3px;
+      }
+      canvas:focus {
+        outline: 2px solid #AAFF00;
+        border-radius: 3px;
+      }
+      .meta {
+        position: absolute;
+        bottom: 0;
+        right: 0;
 
-<head>
-  <meta charset="UTF-8" />
-  <!-- START genmeta4lukeyoo -->
-  <meta name="author" content="Luke Yoo">
-  <meta name="generator" content="Genmeta4lukeyoo 1.0.1">
-  <meta name="keywords"
-    content="Python,JavaScript,C++,C#,Rust,TypeScript,HTML,CSS,React,Node.js,Django,Blazor,SQL,PostgreSQL,SQLite,MS SQL,AWS,Azure,Google Cloud,Docker,CI/CD,Git,GitHub,GitLab,Jenkins,Bitbucket,,Machine Learning,Pandas,NumPy,Data Analysis,Software Engineer,Full-Stack Developer,Backend Developer,Frontend Developer,DevOps Engineer,Cloud Engineer,Data Engineer,Machine Learning Engineer,Mobile App Developer,Systems Architect,Technical Lead,Problem Solving,Team Collaboration,Communication,Agile Methodology,Project Management,Leadership,Adaptability,Attention to Detail,SaaS,Software as a Service,FinTech,Financial Technology,E-commerce,Healthcare Technology,Cybersecurity,Blockchain,IoT,Internet of Things,AI,ML,AI/ML,Artificial Intelligence,Machine Learning,Big Data,Game Development,Computer Engineering,Software Engineering,Data Science,Scalable Systems,Microservices Architecture,RESTful APIs,Open Source Contributions,Code Optimization,Performance Tuning,Cross-Platform Development,Mentorship,Technical Writing,Santa Barbara,California,United States,mictty,micttyl,micttyoid">
-  <meta name="contact" content="w.lukeyoo@gmail.com">
-  <meta name="creator" content="Luke Yoo">
-  <meta name="da_contactEmail" content="w.lukeyoo@gmail.com">
-  <meta name="da_contactFirstName" content="Luke">
-  <meta name="da_contactLastName" content="Yoo">
-  <meta name="da_contactName" content="Luke Yoo">
-  <meta name="dc.created" content="2025-03-10">
-  <meta name="dc.creator" content="Luke Yoo">
-  <meta name="dc.modified" content="2025-03-10">
-  <meta name="dcterms.creator" content="Luke Yoo">
-  <meta name="dcterms.modified" content="2025-03-10">
-  <meta name="shareaholic:article_author_name" content="Luke Yoo">
-  <meta name="shareaholic:keywords"
-    content="Python,JavaScript,C++,C#,Rust,TypeScript,HTML,CSS,React,Node.js,Django,Blazor,SQL,PostgreSQL,SQLite,MS SQL,AWS,Azure,Google Cloud,Docker,CI/CD,Git,GitHub,GitLab,Jenkins,Bitbucket,,Machine Learning,Pandas,NumPy,Data Analysis,Software Engineer,Full-Stack Developer,Backend Developer,Frontend Developer,DevOps Engineer,Cloud Engineer,Data Engineer,Machine Learning Engineer,Mobile App Developer,Systems Architect,Technical Lead,Problem Solving,Team Collaboration,Communication,Agile Methodology,Project Management,Leadership,Adaptability,Attention to Detail,SaaS,Software as a Service,FinTech,Financial Technology,E-commerce,Healthcare Technology,Cybersecurity,Blockchain,IoT,Internet of Things,AI,ML,AI/ML,Artificial Intelligence,Machine Learning,Big Data,Game Development,Computer Engineering,Software Engineering,Data Science,Scalable Systems,Microservices Architecture,RESTful APIs,Open Source Contributions,Code Optimization,Performance Tuning,Cross-Platform Development,Mentorship,Technical Writing,Santa Barbara,California,United States,mictty,micttyl,micttyoid">
-  <meta name="shareaholic:article_modified_time" content="2025-03-10">
-  <meta name="signet:authors" content="Luke Yoo">
-  <meta name="web_author" content="Luke Yoo">
-  <!-- END genmeta4lukeyoo -->
+        font-family: "Roboto Mono", serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+        font-size: 0.85rem;
+        letter-spacing: -0.045rem;
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-    html {
-      height: 100vh;
-      background:
-        radial-gradient(ellipse at top left, rgb(236, 249, 87) 15%, transparent 60%),
-        radial-gradient(ellipse at bottom left, rgb(247, 69, 204) 15%, transparent 60%),
-        radial-gradient(ellipse at top right, rgb(121, 238, 196) 15%, transparent 60%),
-        radial-gradient(ellipse at bottom right, rgb(81, 82, 213) 15%, transparent 60%);
-    }
-
-    canvas {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      outline: 2px solid white;
-      border-radius: 3px;
-    }
-
-    canvas:focus {
-      outline: 2px solid #AAFF00;
-      border-radius: 3px;
-    }
-
-    .meta {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-
-      font-family: "Roboto Mono", serif;
-      font-optical-sizing: auto;
-      font-weight: 450;
-      font-style: normal;
-      font-size: 0.85rem;
-      letter-spacing: -0.045rem;
-
-      opacity: 0.2;
-    }
-  </style>
-  <meta name='description' content='Flappy clone powered by Bevy engine'>
-  <meta name='author' content='Luke Yoo (w.lukeyoo@gmail.com)'>
-  <title>Flappy</title>
-</head>
-
-<body>
-  <article class="meta">
-    <div>date-of-build: 03/30/2025</div>
-  </article>
-</body>
-<script type="module">
-  import init from '/games/flappy/flappy.js'
-  init()
-</script>
-
+        opacity: 0.2;
+      }
+    </style>
+    <meta name='description' content='Flappy clone powered by Bevy engine'>
+    <meta name='author' content='Luke Yoo (w.lukeyoo@gmail.com)'>
+    <title>Flappy</title>
+  </head>
+  <body>
+    <article class="meta">
+      <div>date-of-build: 04/24/2025</div>
+    </article>
+  </body>
+  <script type="module">
+    import init from '/games/flappy/flappy.js'
+    init()
+  </script>
 </html>

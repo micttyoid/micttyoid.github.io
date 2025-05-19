@@ -41,3 +41,4 @@ Documentations
 - [_PlantUML_](https://recruiter-magnet.lukeyoo.fyi/static/docs/plantuml_2025.pdf)
 - [_glTF_ Specification](https://recruiter-magnet.lukeyoo.fyi/static/docs/gltf-2.0.pdf)
 - [_glTF_ Reference](https://recruiter-magnet.lukeyoo.fyi/static/docs/gltf-reference.pdf)
+- [_OpenQASM 3_](https://recruiter-magnet.lukeyoo.fyi/static/docs/qasm-3.pdf)

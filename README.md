@@ -35,7 +35,7 @@ Contact & Other platforms
 - Codeberg: [https://codeberg.org/mictty](https://codeberg.org/mictty)
 - Gitea: [https://gitea.com/mictty](https://gitea.com/mictty)
 
-Documentations
+Documentations(my shortcuts)
 
 - [_LaTeX_](https://recruiter-magnet.lukeyoo.fyi/static/docs/clsguide_2024.pdf)
 - [_PlantUML_](https://recruiter-magnet.lukeyoo.fyi/static/docs/plantuml_2025.pdf)
@@ -43,3 +43,4 @@ Documentations
 - [_glTF_ Reference](https://recruiter-magnet.lukeyoo.fyi/static/docs/gltf-reference.pdf)
 - [_OpenQASM 3_](https://recruiter-magnet.lukeyoo.fyi/static/docs/qasm-3.pdf)
 - [_RISC-V ABIs Specification_](https://recruiter-magnet.lukeyoo.fyi/static/docs/riscv-abi.pdf)
+- [_NAS Grid Benchmark_](https://recruiter-magnet.lukeyoo.fyi/static/docs/nas-grid-bench-v1.pdf)
